@@ -4,7 +4,7 @@ public class TicTacToe {
     private int[][] gameBoard;
     Scanner in = new Scanner(System.in);
 
-    private String playerX, playerC,currentPlayer, totalwinner;
+    private String playerX, playerC,currentPlayer, totalwinner = " ";
 
     int row, col, winCol, winRow;
 
